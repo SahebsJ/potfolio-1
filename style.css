@@ -20,6 +20,11 @@
     --profession-color: rgb(231, 122, 122);
 }
 
+/* html{
+    font-size: 62.5%;
+    overflow-x: hidden; 
+} */
+
 body{
     background:var(--background-color);
     color:aliceblue;
@@ -86,14 +91,18 @@ body{
     cursor: pointer;
     display: none;
 }
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
 /* =================home ====================================== */
 .home{
-    height:100vh ;
+    /* height:100vh ; */
     background: url('image/p02.jpg') no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 9%;
 }
 
 .social-media {

@@ -25,7 +25,7 @@
 }
 }
 
-@media(max-width:768px)
+@media(max-width:823px)
 {
 
     .header{
@@ -50,7 +50,7 @@
     transition-delay: .25s;
    
 }
-.navbar .active{
+.navbar.active{
     left: 0;
 transition-delay: 0s;
 }
@@ -68,7 +68,7 @@ transition-delay: 0s;
     transition-delay: 0s;
 }
 
-.navbar .active .active-nav{
+.navbar.active .active-nav{
     left: 0;
     transition-delay: .25s;
 }
@@ -142,6 +142,8 @@ transition-delay: 0s;
     }
     .home-content h1{
         font-size: 2rem;
+        margin-top: 77px;
+
     }
     .footer p {
         text-align: center;
